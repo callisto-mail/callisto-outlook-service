@@ -25,7 +25,7 @@ def msgfile():
         }
         return jsonify(data)
     
-    return jsonify({})
+    return (404, "File not found")
 
 if __name__ == "__main__":
     service.run()
