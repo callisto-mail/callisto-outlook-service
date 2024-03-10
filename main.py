@@ -24,8 +24,6 @@ def msgfile():
             "body" : o.get_body()
         }
         return jsonify(data)
-    
-    return (404, "File not found")
 
 if __name__ == "__main__":
     service.run()
