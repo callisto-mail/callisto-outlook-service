@@ -24,5 +24,3 @@ class OutlookMsg:
 
     def get_body(self):
         return str(self.body)
-
-o = OutlookMsg("./data/ap.msg")
